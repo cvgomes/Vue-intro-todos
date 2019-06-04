@@ -16,7 +16,7 @@ export default {
         addTodo(e) {
             e.preventDefault();
 
-            if(this.title === "" || this.title == null){
+            if(this.title === ""){
                 return;
             }
 
